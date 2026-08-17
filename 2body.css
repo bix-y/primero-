@@ -16,3 +16,10 @@ body {
     font-weight: bold;
     font-style: italic;
 }
+.gato-flores {
+  width: 90%;          /* Ocupará el 90% del ancho de la pantalla del celular */
+  max-width: 300px;    /* Nunca crecerá más de 300px (ideal para pantalla chica) */
+  height: auto;        /* Mantiene la proporción sin deformarse */
+  display: block;      /* Ayuda a centrarla bien */
+  margin: 10px auto;   /* La centra en la pantalla */
+}
