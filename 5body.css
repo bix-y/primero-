@@ -1,0 +1,25 @@
+body {
+    background-color: pink;
+  background-image: url('3corazones.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}
+.title-1{
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 60px;
+}
+.text{
+    font-weight: bold;
+    font-style: italic;
+}
+.gato-riendo {
+  width: 90%;          /* Ocupará el 90% del ancho de la pantalla del celular */
+  max-width: 300px;    /* Nunca crecerá más de 300px (ideal para pantalla chica) */
+  height: auto;        /* Mantiene la proporción sin deformarse */
+  display: block;      /* Ayuda a centrarla bien */
+  margin: 10px auto;   /* La centra en la pantalla */
+}
